@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio étudiant première année Mathématiques & Informatique - Projets d'apprentissage en HTML, CSS, JavaScript, Python, C">
+    <title>Portfolio Étudiant - À Propos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav>
+            <div class="logo">Portfolio Étudiant</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">À Propos</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="theme-toggle" aria-label="Toggle theme">🌙</button></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero section" style="margin-top: 70px; min-height: 100vh; display: flex; align-items: center;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                <!-- Left Content -->
+                <div class="hero-content fade-in-up">
+                    <p style="color: var(--primary-color); font-weight: 600; font-size: 1.1rem; margin-bottom: 1rem;">
+                        👋 Bonjour, je suis
+                    </p>
+                    <h1 style="margin-bottom: 1rem;">[Votre Nom Complet]</h1>
+                    <h2 style="margin-bottom: 2rem; font-weight:600;">
+                        <span class="text-gradient typing-text" data-words="Étudiant en Mathématiques,Débutant en Informatique,Apprenti Développeur,Curieux & Motivé">Étudiant en Mathématiques</span>
+                    </h2>
+                    <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem; max-width: 640px;">
+                        Je suis étudiant en <strong>première année de Licence Mathématiques & Informatique</strong>. Ce portfolio présente mes premiers projets et exercices d'apprentissage.
+                        Mon objectif est de progresser et d'intégrer des programmes universitaires avancés en développement logiciel et sciences des données.
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="projects.html" class="btn btn-primary">Projets d'apprentissage</a>
+                        <a href="cv.html" class="btn btn-outline">Mon parcours</a>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="hero-image fade-in" style="text-align: center;">
+                    <div style="position: relative; display: inline-block;">
+                        <div style="width: 400px; height: 400px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-xl); animation: float 3s ease-in-out infinite;">
+                            <div style="width: 380px; height: 380px; background: var(--bg-card); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 8rem;">
+                                👨‍💻
+                            </div>
+                        </div>
+                        <!-- Floating elements -->
+                        <div style="position: absolute; top: 10%; right: -10%; width: 60px; height: 60px; background: var(--bg-card); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center; font-size: 2rem; box-shadow: var(--shadow-lg); animation: float 2s ease-in-out infinite;">
+                            💡
+                        </div>
+                        <div style="position: absolute; bottom: 10%; left: -10%; width: 60px; height: 60px; background: var(--bg-card); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center; font-size: 2rem; box-shadow: var(--shadow-lg); animation: float 2.5s ease-in-out infinite;">
+                            🚀
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="reveal">
+                <h2 class="text-center" style="margin-bottom: 1rem;">À Propos</h2>
+                <p class="text-center" style="max-width: 740px; margin: 0 auto 3rem; font-size: 1.05rem;">
+                    Étudiant motivé en première année. J'apprends les bases solides des mathématiques (logique, algèbre, analyse) et de l'informatique (algorithmique, structures de données, programmation). Ce site évoluera avec mes progrès.
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+                <!-- Card 1 -->
+                <div class="card reveal">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📘</div>
+                    <h3>Objectif 2025</h3>
+                    <p>Renforcer mes bases en mathématiques (logique, raisonnement formel) et en programmation (Python, C, JavaScript) pour préparer des projets plus avancés.</p>
+                </div>
+                <div class="card reveal">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
+                    <h3>Apprentissage Actuel</h3>
+                    <p>Exercices : algorithmes simples, manipulation de listes, boucles, conditions, premiers scripts web et gestion de version avec Git. Participation au <strong>Club Scientifique Informatique (CSI)</strong> pour apprendre en groupe.</p>
+                </div>
+                <div class="card reveal">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+                    <h3>Mon Ambition</h3>
+                    <p>Évoluer vers la programmation orientée objets, les structures de données, puis découvrir l'IA, l'analyse de données et le développement full stack.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills section">
+        <div class="container">
+            <div class="reveal">
+                <h2 class="text-center" style="margin-bottom: 1rem;">Ce que j'apprends</h2>
+                <p class="text-center" style="max-width: 720px; margin: 0 auto 3rem; font-size: 1.05rem;">
+                    Technologies et concepts de base que je commence à explorer. Je suis débutant et chaque jour j'ajoute de nouvelles notions.
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <!-- Frontend -->
+                <div class="card reveal">
+                    <h3 style="margin-bottom: 1.2rem;">Langages & Web</h3>
+                    <p style="font-size:0.9rem; margin-bottom:0.75rem; color:var(--text-secondary);">Notions de base en syntaxe, variables, conditions, boucles.</p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">HTML</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">CSS</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">JavaScript (début)</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Python (bases)</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">C (intro)</span>
+                    </div>
+                </div>
+                <div class="card reveal">
+                    <h3 style="margin-bottom: 1.2rem;">Concepts étudiés</h3>
+                    <p style="font-size:0.9rem; margin-bottom:0.75rem; color:var(--text-secondary);">Math & CS fondamentaux.</p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Logique</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Algorithmes</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Structures de données (bases)</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Analyse</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Algèbre</span>
+                    </div>
+                </div>
+                <div class="card reveal">
+                    <h3 style="margin-bottom: 1.2rem;">Outils utilisés</h3>
+                    <p style="font-size:0.9rem; margin-bottom:0.75rem; color:var(--text-secondary);">Environnement et logiciels qui m'aident à progresser.</p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">VS Code</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">JetBrains IDE</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Code::Blocks</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Figma</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Git</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Linux</span>
+                        <span style="background: var(--bg-secondary); padding: 0.45rem 0.9rem; border-radius: var(--radius-sm); font-weight: 500;">Terminal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <section class="stats section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.5rem; text-align: center;">
+                <div class="card reveal" style="padding:1.5rem;">
+                    <h2 class="text-gradient" style="font-size: 2.5rem; margin-bottom: 0.25rem;">1ère</h2>
+                    <p style="font-size: 0.95rem;">Année Licence</p>
+                </div>
+                <div class="card reveal" style="padding:1.5rem;">
+                    <h2 class="text-gradient" style="font-size: 2.5rem; margin-bottom: 0.25rem;">5</h2>
+                    <p style="font-size: 0.95rem;">Mini-projets</p>
+                </div>
+                <div class="card reveal" style="padding:1.5rem;">
+                    <h2 class="text-gradient" style="font-size: 2.5rem; margin-bottom: 0.25rem;">+10</h2>
+                    <p style="font-size: 0.95rem;">Exercices Python</p>
+                </div>
+                <div class="card reveal" style="padding:1.5rem;">
+                    <h2 class="text-gradient" style="font-size: 2.5rem; margin-bottom: 0.25rem;">En cours</h2>
+                    <p style="font-size: 0.95rem;">Apprentissage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio Étudiant</h3>
+                    <p>Suivi de mon apprentissage en mathématiques et informatique. Ce site évoluera avec mes progrès.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/AmineMohellebi" aria-label="GitHub">🐙</a>
+                        <a href="https://www.linkedin.com/in/amine-mohellebi-25863b2a6/" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="mailto:amineemohellebi@gmail.com" aria-label="Email">📧</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <a href="index.html">À Propos</a>
+                    <a href="projects.html">Projets</a>
+                    <a href="cv.html">CV</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📧 amineemohellebi@gmail.com</p>
+                    <p>📱 +213 796 83 03 39</p>
+                    <p>📍 Tizi Ouzou, Algérie</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mon Portfolio. Tous droits réservés. Développé avec ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" style="position: fixed; bottom: 2rem; right: 2rem; width: 50px; height: 50px; background: var(--gradient-primary); color: white; border: none; border-radius: 50%; cursor: pointer; opacity: 0; visibility: hidden; transition: var(--transition-normal); box-shadow: var(--shadow-lg); font-size: 1.5rem; display: flex; align-items: center; justify-content: center;">
+        ↑
+    </button>
+
+    <style>
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @media (max-width: 768px) {
+            .hero > .container > div {
+                grid-template-columns: 1fr !important;
+                text-align: center;
+            }
+
+            .hero-image {
+                order: -1;
+            }
+
+            .hero-image > div > div {
+                width: 300px !important;
+                height: 300px !important;
+            }
+
+            .hero-image > div > div > div {
+                width: 280px !important;
+                height: 280px !important;
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
