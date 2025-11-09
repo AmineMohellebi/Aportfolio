@@ -1,41 +1,50 @@
-# Portfolio Web Moderne
+# Portfolio Étudiant - Amine Mohellebi
 
-Un portfolio professionnel moderne et responsive avec 4 pages principales, développé avec HTML5, CSS3, et JavaScript vanilla.
+Portfolio d'apprentissage d'un étudiant en **Licence 1 Mathématiques & Informatique** à l'**Université Mouloud Mammeri de Tizi-Ouzou (UMMTO)**. Ce site présente mes premiers projets et mon parcours d'apprentissage en développement web.
 
-## 🌟 Fonctionnalités
+## 👨‍🎓 À Propos
+
+Étudiant en première année, membre actif du **Club Scientifique Informatique (CSI)** de l'UMMTO. Je développe mes compétences en HTML, CSS, JavaScript, Python et C, avec pour objectif d'intégrer des programmes universitaires avancés en développement logiciel.
+
+## 🌟 Structure du Portfolio
 
 ### Pages
-- **À Propos (index.html)** - Page d'accueil avec hero section, compétences et statistiques
-- **Projets (projects.html)** - Galerie de projets avec système de filtrage
-- **CV (cv.html)** - Timeline d'expérience professionnelle et formation avec barres de compétences animées
-- **Contact (contact.html)** - Formulaire de contact avec validation et FAQ
+- **À Propos (index.html)** - Présentation personnelle, compétences en cours d'apprentissage, objectifs 2025
+- **Projets (projects.html)** - Mes 3 premiers projets d'apprentissage en HTML/CSS/JS
+- **CV (cv.html)** - Parcours académique, participation au CSI, compétences et objectifs
+- **Contact (contact.html)** - Formulaire de contact et informations pour échanges académiques
 
 ### Caractéristiques
 
 #### Design & UI/UX
-✨ Design moderne avec dégradés et animations fluides
-✨ Mode sombre/clair avec basculement automatique
-✨ Interface entièrement responsive (mobile, tablette, desktop)
-✨ Typographie optimisée avec clamp() pour responsive
-✨ Système de couleurs CSS variables personnalisable
+✨ Design moderne avec dégradés et animations fluides  
+✨ Mode sombre/clair avec basculement automatique  
+✨ Interface entièrement responsive (mobile, tablette, desktop)  
+✨ Typographie optimisée pour une lecture agréable  
 
 #### Interactivité
-🚀 Animations au scroll (scroll reveal)
-🚀 Effet de typing dans le hero
-🚀 Barres de progression animées pour les compétences
-🚀 Filtrage de projets en temps réel
-🚀 Navigation mobile avec menu hamburger
-🚀 Bouton scroll-to-top
-🚀 Effets de tilt sur les cartes (desktop)
-🚀 Barre de progression de lecture
-🚀 Curseur personnalisé (desktop)
+🚀 Animations au scroll (scroll reveal)  
+🚀 Effet de typing dans le hero  
+🚀 Barres de progression animées pour les compétences  
+🚀 Navigation mobile avec menu hamburger  
+🚀 Bouton scroll-to-top  
 
-#### Performance
-⚡ CSS optimisé avec variables
-⚡ JavaScript vanilla (pas de dépendances)
-⚡ Images lazy loading
-⚡ Transitions GPU-accelerated
-⚡ Code sémantique et accessible
+## 📂 Projets Présentés
+
+### 1. 🗂️ Portfolio Personnel
+Site multi-pages pour me présenter et lister mes projets. Design responsive avec animations.
+- **Technologies**: HTML, CSS, JavaScript
+- **Repo**: [github.com/AmineMohellebi/Aportfolio](https://github.com/AmineMohellebi/Aportfolio)
+
+### 2. 🐍 Snake Game
+Jeu classique Snake dans le navigateur utilisant Canvas API. Gestion des collisions, système de score et accélération progressive.
+- **Technologies**: HTML, CSS, JavaScript, Canvas
+- **Repo**: [github.com/AmineMohellebi/snack-game](https://github.com/AmineMohellebi/snack-game)
+
+### 3. 🧮 Calculatrice
+Calculatrice simple avec opérations de base (addition, soustraction, multiplication, division). Interface clavier numérique et gestion du clavier physique.
+- **Technologies**: HTML, CSS, JavaScript
+- **Repo**: [github.com/AmineMohellebi/claclulatrice](https://github.com/AmineMohellebi/claclulatrice)
 
 ## 📁 Structure du Projet
 
@@ -54,10 +63,10 @@ Aportfolio/
     └── images/             # Images et médias
 ```
 
-## 🚀 Installation et Utilisation
+## 🚀 Utilisation
 
 ### Option 1: Ouvrir directement
-1. Téléchargez ou clonez le projet
+1. Clonez le dépôt: `git clone https://github.com/AmineMohellebi/Aportfolio.git`
 2. Ouvrez `index.html` dans votre navigateur
 
 ### Option 2: Serveur local
@@ -84,25 +93,14 @@ Modifiez les variables CSS dans `css/styles.css`:
     --primary-color: #6366f1;      /* Couleur principale */
     --secondary-color: #8b5cf6;    /* Couleur secondaire */
     --accent-color: #ec4899;       /* Couleur d'accent */
-    /* ... */
 }
 ```
 
 ### Contenu
-1. **Informations personnelles**: Modifiez directement dans les fichiers HTML
+1. **Informations personnelles**: Modifiez dans les fichiers HTML
 2. **Projets**: Ajoutez/modifiez dans `projects.html`
-3. **Expérience**: Modifiez la timeline dans `cv.html`
-4. **Contact**: Mettez à jour email/téléphone dans `contact.html`
-
-### Typographie
-Changez les polices dans `css/styles.css`:
-
-```css
-:root {
-    --font-primary: 'Votre Police', sans-serif;
-    --font-heading: 'Votre Police Titre', sans-serif;
-}
-```
+3. **CV**: Modifiez les sections dans `cv.html`
+4. **Contact**: Mettez à jour dans `contact.html`
 
 ## 📱 Compatibilité
 
@@ -117,37 +115,45 @@ Changez les polices dans `css/styles.css`:
 - **CSS3** - Styling moderne (Grid, Flexbox, Custom Properties)
 - **JavaScript ES6+** - Interactivité et animations
 - **Intersection Observer API** - Animations au scroll
-- **CSS Animations** - Transitions fluides
 
-## 📝 À Faire (Améliorations futures)
+## 🎯 Objectifs d'Apprentissage 2025
 
-- [ ] Intégrer un vrai service d'envoi d'email (EmailJS, FormSpree)
-- [ ] Ajouter Google Maps API pour la carte
-- [ ] Optimiser les images avec WebP
-- [ ] Ajouter un blog avec articles
-- [ ] Implémenter i18n (multilingue FR/EN)
-- [ ] Ajouter des tests automatisés
-- [ ] PWA (Progressive Web App)
-- [ ] Analytics (Google Analytics ou alternative)
+- ✔️ Consolider HTML, CSS, JavaScript
+- ✔️ Maîtriser les bases Python & C
+- 🔄 Découvrir POO & structures de données
+- 🔄 Explorer Git, Linux et outils collaboratifs
+- 🔄 Participer à des projets open source
 
-## 🤝 Contribution
+## 🤝 Club Scientifique Informatique (CSI)
 
-Ce portfolio est un template personnel. N'hésitez pas à:
-1. Fork le projet
-2. Personnaliser selon vos besoins
-3. Partager vos améliorations
-
-## 📄 Licence
-
-Ce projet est libre d'utilisation pour vos portfolios personnels.
+Membre actif du CSI - UMMTO depuis 2025:
+- Participation aux ateliers d'initiation (HTML/CSS, JavaScript, Git & GitHub)
+- Travail en groupe sur mini-projets
+- Entraide et apprentissage collaboratif
 
 ## 📧 Contact
 
-Pour toute question concernant ce portfolio:
-- Email: votre.email@example.com
-- LinkedIn: [Votre Profil]
-- GitHub: [Votre GitHub]
+- **Email**: [amineemohellebi@gmail.com](mailto:amineemohellebi@gmail.com)
+- **Téléphone**: +213 796 83 03 39
+- **LinkedIn**: [Amine Mohellebi](https://www.linkedin.com/in/amine-mohellebi-25863b2a6/)
+- **GitHub**: [@AmineMohellebi](https://github.com/AmineMohellebi)
+- **Localisation**: Tizi Ouzou, Algérie
+
+## 🌐 Langues
+
+- 🏔️ **Kabyle** - Langue maternelle
+- 🇩🇿 **Arabe** - Courant
+- 🇫🇷 **Français** - Bilingue
+- 🇬🇧 **Anglais** - Courant (C1)
+
+## 📝 Évolution du Portfolio
+
+Ce portfolio évoluera au fur et à mesure de mes progrès:
+- Ajout de nouveaux projets
+- Amélioration des compétences
+- Intégration de technologies avancées
+- Documentation de mon apprentissage
 
 ---
 
-**Développé avec ❤️ et beaucoup de ☕**
+**© 2025 Amine Mohellebi** | Développé avec ❤️ et beaucoup de ☕ | Étudiant L1 Math & Info - UMMTO
